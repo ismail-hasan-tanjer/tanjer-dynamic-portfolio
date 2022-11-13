@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
-<body>
+<body class="">
 
-    <section class="container py-5">
+    <section class="container bg-light py-5">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -22,13 +22,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="../../assets/img/1.jpg" alt="First slide">
+                    <img class="d-block w-100 h-500" src="assets/img/slide-2.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="..." alt="Second slide">
+                    <img class="d-block w-100" src="assets/img/slide-2.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="..." alt="Third slide">
+                    <img class="d-block w-100" src="assets/img/slide-2.jpg" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -40,7 +40,23 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+    </section>
+    <section>
+        <div class="container bg-light">
+            <div class="row">
+                <div class="">
+                    <h1>Skills</h1>
+                </div>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                </ul>
 
+            </div>
+        </div>
     </section>
 
 

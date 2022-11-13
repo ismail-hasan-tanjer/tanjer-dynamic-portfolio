@@ -11,66 +11,44 @@
 
 </head>
 
-<body>
-    
+<body class="container">
    <header>
     <nav>
     <div class = "menu-bar">
-			<ul>
-				<li class = "active"><a href = "#"><i class="fa fa-home"></i>Home</a></li>
-				<li><a href = "#"><i class="fa fa-clone"></i>মাদ্রাসা শিক্ষা ব্যবস্থা</a>
-					<div class = "sub-menu-1">
-							<ul>
-								
-								<li class = "hover-me"><a href = "#">ক্বওমী মাদ্রাসা</a>
-								<i class="fa fa-angle-right"></i>
-								<div class = "sub-menu-2">
-									<ul>
-											<li><a href = "#">নূরানী</a></li> 
-											<li><a href = "#">নূরানী প্রথম</a></li>
-											<li><a href = "#">নূরানী দ্বিতীয়</a></li>
-											<li><a href = "#">নাজেরা (তৃতীয় শ্রেণী)</a></li>
-											<li><a href = "#">হেফজ্ খানা</a></li>
-											<li><a href = "#">উর্দূ খানা</a></li>
-											<li><a href = "#">তাইসির/ফারসি খানা</a></li>
-											<li><a href = "#">মিজান জামাত</a></li>
-											<li><a href = "#">নাহ্ বেমীর জামাত</a></li>
-											<li><a href = "#">হেদায়াতুন নাহু</a></li>
-											<li><a href = "#">কাফিয়া</a></li>
-											<li><a href = "#">শরহে বেকায়া জামাত	</a></li>
-											<li><a href = "#">জালালাইন জামাত</a></li>			
-											<li><a href = "#">মেশকাত জামাত</a></li>
-											<li><a href = "#">দাওরায়ে হাদীস (তাকমীল)</a></li>
-									</ul>
-								</div>
-								</li>
-								<li class = "hover-me"><a href = "#">আলিয়া মাদ্রাসা (সরকারী)</a>
-								<i class="fa fa-angle-right"></i>
-								<div class = "sub-menu-2">
-									<ul>
-										<li><a href = "#">SEO</a></li>
-										<li><a href = "#">iOS App</a></li>
-										<li><a href = "#">Flutter App</a></li>
-										<li><a href = "#">Unity App</a></li>
-									</ul>
-								</div>
-								</li>
-							</ul>
-						</div>
-					</li>
-				
-				<li><a href = "#"><i class="fa fa-user"></i>About Us</a>
+			<ul class="container">
+				<li class = "active">
+					<a href = "?page=home">
+					<i class="fa fa-home">
+					</i>Home
+					</a>
+				</li>
+				<li><a href="?page=about"><i class="fa fa-clone"></i> About Me</a>
 					<div class = "sub-menu-1">
 						<ul>
-							<li><a href = "#">Mission</a></li>
-							<li><a href = "#">Vision</a></li>
-							<li><a href = "#">Team</a></li>
+							<li class = "hover-me"><a href = "#">Education</a>
+								<i class="fa fa-angle-right"></i>
+								<div class = "sub-menu-2">
+									<ul>
+										<li><a href = "#">MSc In CSE</a></li> 
+										<li><a href = "#">BSc in CSE</a></li>
+										<li><a href = "#">HSC</a></li>
+										<li><a href = "#">SSC</a></li>
+										<li><a href = "#">JSC</a></li>
+										<li><a href = "#">Primary</a></li>
+									</ul>
+								</div>
+								</li>
+								<li><a href = "?page=extra"><i class="fa fa-user"></i>Extra Qualification</a>
+								
+							</li>
 						</ul>
-					</div>
-				</li>
-				<li><a href = "#"><i class="fa fa-user-plus"></i>Login</a></li>
-				<li><a href = "#"><i class="fa fa-edit"></i>Training</a></li>
-				<li><a href = "#"><i class="fa fa-phone"></i>Contact</a></li>
+						</div>
+					</li>
+				<li><a href = "?page=testimonial"><i class="fa fa-user-plus"></i>Testimonial</a></li>
+				<li><a href = "?page=projects"><i class="fa fa-edit"></i>Projects</a></li>
+				<li><a href = "?page=blog"><i class="fa fa-edit"></i>Blog</a></li>
+				<li><a href = "#"><i class="fa fa-phone"></i>Contact</a>
+			</li>
 			</ul>
 		</div>
     </nav>
